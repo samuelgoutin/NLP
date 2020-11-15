@@ -44,7 +44,7 @@ In order to estimate the posterior which can then be used in the CRF training, t
 
 # Example
 
-You can find my python implementation of this approach with the [GBC dataset](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) in the [main.ipynb](https://github.com/samuelgoutin/NLP/blob/master/main.ipynb) file.
+You can find my python implementation of this approach with the [GBC dataset](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) in the [main.ipynb](https://github.com/samuelgoutin/NLP/blob/master/example.ipynb) file.
 # Clone the project
 ```
   $ git clone https://github.com/samuelgoutin/NLP.git
