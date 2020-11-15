@@ -11,14 +11,14 @@ Consider that we want to extract named entities from a text. Our dataset is comp
 
 ## CRF model
 
-First, we introduce a basic CRF model to categorize our tokens.
+We introduce a basic CRF model to categorize our tokens.
 
 ## Semi-supervised learning
 
 Our semi-supervised algorithm uses the following steps to estimate the posterior probabilities of the unlabeled data :
     
    * It computes the CRF marginals,
-   * Then constructs a graph of tokens based on their semantic similarity,
+   * Constructs a graph of tokens based on their semantic similarity,
    * Performs a transductive label propagation on the graph,
    * Uses the transductive predictions to interpolate the CRF marginal.
 
